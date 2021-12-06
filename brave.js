@@ -19,7 +19,7 @@
 
 
 
-    const createAndLinkInHead = (path) => {
+    const createLinkElementAndAppendInHead = (path) => {
         const element = document.createElement('link');
         element.href = `${path}`;
         element.rel = 'stylesheet';
@@ -30,8 +30,8 @@
 
 
     document.body.insertAdjacentHTML('afterbegin', DOMString)
-    createAndLinkInHead('https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css');
-    createAndLinkInHead('style.css');
+    createLinkElementAndAppendInHead('https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css');
+    createLinkElementAndAppendInHead('style.css');
 
 
 
