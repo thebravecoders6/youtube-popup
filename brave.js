@@ -19,26 +19,27 @@
 
 
 
-
-    const loadStyle = () => {
-        const link = document.createElement('link');
-        link.href = './style.css';
-        link.rel = 'stylesheet';
-        document.head.append(link);
+    const createAndLinkInHead = (path) => {
+        const element = document.createElement('link');
+        element.href = `${path}`;
+        element.rel = 'stylesheet';
+        document.head.append(element);
     }
 
 
 
+
     document.body.insertAdjacentHTML('afterbegin', DOMString)
+    createAndLinkInHead('https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css');
+    createAndLinkInHead('style.css');
+
+
 
     const btnOk = document.querySelector('.the-brave-coders__ok-btn');
-
     btnOk.addEventListener('click', (e) => {
         e.target.closest('.the-brave-coders__backdrop').remove();
     });
 
-    // load stylesheet
-    loadStyle();
 
 })();
 
