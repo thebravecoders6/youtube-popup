@@ -1,0 +1,108 @@
+.the-brave-coders__btn-icon {
+  font-size: 1.6em;
+  margin-right: 0.5rem;
+}
+
+.the-brave-coders__backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.644);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.the-brave-coders__popup {
+  width: 18rem;
+  background-color: rgb(255, 255, 255);
+  padding: 1rem;
+  border-radius: 4px;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  -webkit-box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+}
+
+.the-brave-coders__popup-header,
+.the-brave-coders__popup-header:link,
+.the-brave-coders__popup-header:visited {
+  font-size: 1.2em;
+  font-weight: 600;
+  margin-top: -2.6rem;
+  margin-bottom: 2rem;
+  background-image: -webkit-gradient(linear, left bottom, right top, from(#e90606), to(#ff4a4a));
+  background-image: -o-linear-gradient(left bottom, #e90606, #ff4a4a);
+  background-image: linear-gradient(to right top, #e90606, #ff4a4a);
+  color: rgb(241, 241, 241);
+  padding: 0.5rem 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 1px;
+  -webkit-transform: skew(-10deg) rotate(-3deg);
+      -ms-transform: skew(-10deg) rotate(-3deg);
+          transform: skew(-10deg) rotate(-3deg);
+  -webkit-box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+  -webkit-tap-highlight-color: transparent;
+  text-decoration: none;
+}
+
+.the-brave-coders__code-name {
+  font-size: 1.2em;
+  margin-bottom: 1rem;
+}
+
+.the-brave-coders__code-name--span {
+  background-image: -webkit-gradient(linear, left bottom, right top, from(#e20000), to(#ff3131));
+  background-image: -o-linear-gradient(left bottom, #e20000, #ff3131);
+  background-image: linear-gradient(to right top, #e20000, #ff3131);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.the-brave-coders__link {
+  word-break: break-all;
+  line-height: 1.4;
+  display: block;
+  color: rgb(29, 29, 250);
+  margin-bottom: 1.2rem;
+}
+
+.the-brave-coders__ok-btn,
+.the-brave-coders__ok-btn:link,
+.the-brave-coders__ok-btn:active,
+.the-brave-coders__ok-btn:visited {
+  text-transform: uppercase;
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 0.5rem 2rem;
+  color: #ffffff;
+  background-image: -webkit-gradient(linear, left bottom, right top, from(#e20000), to(#ff3131));
+  background-image: -o-linear-gradient(left bottom, #e20000, #ff3131);
+  background-image: linear-gradient(to right top, #e20000, #ff3131);
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  font-weight: 400;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-transform: skew(-10deg) rotate(-3deg);
+      -ms-transform: skew(-10deg) rotate(-3deg);
+          transform: skew(-10deg) rotate(-3deg);
+  -webkit-box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+}
