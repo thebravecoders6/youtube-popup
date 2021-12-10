@@ -15,12 +15,6 @@
                                 target="_blank">https://www.youtube.com/c/TheBraveCoders/</a>
                             <a href="#" class="the-brave-coders__ok-btn">Ok</a>
                         </div>
-                    </div>
-                    <div class="the-brave-coders-learn-it">
-                        <a href="https://www.youtube.com/c/thebravecoders" class="the-brave-coders-learn-it__button">
-                            <i class="ri-youtube-fill the-brave-coders__btn-icon"></i>
-                            My Youtube Channel
-                        </a>
                     </div>`
 
 
