@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 .the-brave-coders__btn-icon {
   font-size: 1.6em;
   margin-right: 0.5rem;
@@ -105,4 +107,30 @@
           transform: skew(-10deg) rotate(-3deg);
   -webkit-box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
           box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+}
+
+.the-brave-coders-learn-it{
+  position: fixed;
+  bottom: 10px;
+  left: 0;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.the-brave-coders-learn-it__button{
+  background-color: #fff;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:#000;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.the-brave-coders-learn-it__button i {
+  color: #e20000;
 }
