@@ -31,7 +31,7 @@
 
     document.body.insertAdjacentHTML('afterbegin', DOMString)
     createLinkElementAndAppendInHead('https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css');
-    createLinkElementAndAppendInHead('style.css');
+    createLinkElementAndAppendInHead('https://thebravecoders.github.io/youtube-popup/style.css');
 
 
 
