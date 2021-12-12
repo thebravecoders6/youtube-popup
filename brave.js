@@ -3,7 +3,7 @@
 
     const DOMString = `<div class="the-brave-coders__backdrop">
                         <div class="the-brave-coders__popup">
-                            <a href="https://www.youtube.com/c/thebravecoders" class="the-brave-coders__popup-header" target="_blank">
+                            <a href="https://www.youtube.com/c/TheBraveCoders/?sub_confirmation=1" class="the-brave-coders__popup-header" target="_blank">
                                 <i class="ri-youtube-fill the-brave-coders__btn-icon"></i>ThebraveCoders
                             </a>
 
@@ -11,7 +11,7 @@
                                 <span class="the-brave-coders__code-name--span">Subscribe My Youtube Channel</span>😋
                             </h1>
 
-                            <a href="https://www.youtube.com/c/TheBraveCoders/" class="the-brave-coders__link"
+                            <a href="https://www.youtube.com/c/TheBraveCoders/?sub_confirmation=1" class="the-brave-coders__link"
                                 target="_blank">https://www.youtube.com/c/TheBraveCoders/</a>
                             <a href="#" class="the-brave-coders__ok-btn">Ok</a>
                         </div>
