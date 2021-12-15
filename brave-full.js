@@ -8,7 +8,7 @@
                             </a>
 
                             <h1 class="the-brave-coders__code-name">
-                                <span class="the-brave-coders__code-name--span">Subscribe My Youtube Channel</span>😋
+                                <span class="the-brave-coders__code-name--span">Subscribe Our Youtube Channel</span>😋
                             </h1>
 
                             <a href="https://www.youtube.com/c/TheBraveCoders/" class="the-brave-coders__link"
