@@ -19,7 +19,7 @@
                     <div class="the-brave-coders-learn-it">
                         <a href="https://www.youtube.com/c/TheBraveCoders/?sub_confirmation=1" class="the-brave-coders-learn-it__button">
                             <i class="ri-youtube-fill the-brave-coders__btn-icon"></i>
-                            My Youtube Channel
+                            Our Youtube Channel
                         </a>
                     </div>`
 
