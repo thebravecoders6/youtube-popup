@@ -4,7 +4,7 @@
     const DOMString = `<div class="the-brave-coders__backdrop">
                         <div class="the-brave-coders__popup">
                             <a href="https://www.youtube.com/c/TheBraveCoders/?sub_confirmation=1" class="the-brave-coders__popup-header" target="_blank">
-                                <i class="ri-youtube-fill the-brave-coders__btn-icon"></i>ThebraveCoders
+                                <i class="ri-youtube-fill the-brave-coders__btn-icon"></i>TheBraveCoders
                             </a>
 
                             <h1 class="the-brave-coders__code-name">
