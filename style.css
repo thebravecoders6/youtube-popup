@@ -133,6 +133,7 @@
     color: #e20000;
     font-size: .9rem;
     position: relative;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
 
     
 }
@@ -155,7 +156,7 @@
     border:2px solid #fff;
     animation: scaling 1s infinite;
     z-index: -1;
-    animation: scaling 1s .2s infinite;
+    backface-visibility: hidden;
 }
 
 
@@ -166,7 +167,7 @@
     }
 
     100%{
-        transform: translate(-50%,-50%) scale(1.05,1.2);
+        transform: translate(-50%,-50%) scale(1.05,1.25);
         opacity: 0;
     }
 }
