@@ -154,7 +154,7 @@
     top:50%;
     transform: translate(-50%,-50%);
     border:2px solid #fff;
-    animation: scaling 1s infinite;
+    animation: scaling 1s 2s infinite;
     z-index: -1;
     backface-visibility: hidden;
 }
