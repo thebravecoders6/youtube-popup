@@ -142,8 +142,6 @@
   color: #e20000;
 }
 
-
-
 .the-brave-coders-learn-it__button::after{
     content: '';
     position: absolute;
@@ -154,20 +152,6 @@
     top:50%;
     transform: translate(-50%,-50%);
     border:2px solid #fff;
-    animation: scaling 1s 2s infinite;
     z-index: -1;
     backface-visibility: hidden;
-}
-
-
-
-@keyframes scaling {
-    0%{
-        transform: translate(-50%,-50%) scale(1);
-    }
-
-    100%{
-        transform: translate(-50%,-50%) scale(1.05,1.25);
-        opacity: 0;
-    }
 }
