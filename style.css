@@ -142,17 +142,3 @@
 .the-brave-coders-learn-it__button i {
   color: #e20000;
 }
-
-.the-brave-coders-learn-it__button::after{
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    border-radius: inherit;
-    left: 50%;
-    top:50%;
-    transform: translate(-50%,-50%);
-    border:2px solid #fff;
-    z-index: -1;
-    backface-visibility: hidden;
-}
