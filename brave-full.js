@@ -13,7 +13,7 @@
 
                             <a href="https://www.youtube.com/c/TheBraveCoders/" class="the-brave-coders__link"
                                 target="_blank">https://www.youtube.com/c/TheBraveCoders/</a>
-                            <a href="#" class="the-brave-coders__ok-btn">Ok</a>
+                            <a href="#" class="the-brave-coders__ok-btn">Close</a>
                         </div>
                     </div>
                     <div class="the-brave-coders-learn-it">
